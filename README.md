@@ -25,5 +25,15 @@ While the variance of the suspension coils is 62.29356 in total, only Lot 1 and 
 
 
 ## T-Tests on Suspension Coils
+![t.test_all](MechaCar_Statistical_Analysis/images/t.test_all.png)
+![t.test_lot1](MechaCar_Statistical_Analysis/images/t.test_lot1.png)
+![t.test_lot2](MechaCar_Statistical_Analysis/images/t.test_lot2.png)
+![t.test_lot3](MechaCar_Statistical_Analysis/images/t.test_lot3.png)
+**Summarize your interpretation and findings for the t-test results**
+Assuming the significance level was the common 0.05 percent
+* All Lots: the p-value 0.06026 is above the significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and the two means are statistically similar.
+* Lot 1: the p-value 1 is above the significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and the two means are statistically similar.
+* Lot 2: the p-value 0.06072 is above the significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and the two means are statistically similar.
+* Lot 3: the p-value 0.04168 is below the significance level. Therefore, we *have sufficient evidence* to reject the null hypothesis, and the two means are statistically dissimilar.
 
 ## Study Design: MechaCar vs Competition
