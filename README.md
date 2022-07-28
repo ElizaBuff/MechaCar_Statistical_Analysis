@@ -34,10 +34,28 @@ While the variance of the suspension coils is 62.29356 in total, only Lot 1 and 
 ![t.test_lot3](MechaCar_Statistical_Analysis/images/t.test_lot3.png)
 
 **Summarize your interpretation and findings for the t-test results**
-Assuming the significance level was the common 0.05 percent
+Assuming the significance level is 0.05
 * All Lots: the p-value 0.06026 is above the significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and the two means are statistically similar.
 * Lot 1: the p-value 1 is above the significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and the two means are statistically similar.
 * Lot 2: the p-value 0.06072 is above the significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and the two means are statistically similar.
 * Lot 3: the p-value 0.04168 is below the significance level. Therefore, we **have sufficient evidence** to reject the null hypothesis, and the two means are statistically dissimilar.
 
 ## Study Design: MechaCar vs Competition
+
+Using your knowledge of R, design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
+
+**What metric or metrics are you going to test?**
+Using a one-sample t-test, is there a statistical difference between the mean of MechaCar's satefy ratings and the mean of leading manufactures' safety ratings?
+
+**What is the null hypothesis or alternative hypothesis?**
+* Null Hypothesis: significance level was the common 0.05 percent
+
+
+* Hypothesis: 
+
+
+**What statistical test would you use to test the hypothesis? And why?**
+
+
+**What data is needed to run the statistical test?**
+
