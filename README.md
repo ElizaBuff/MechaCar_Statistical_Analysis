@@ -42,20 +42,20 @@ Assuming the significance level is 0.05
 
 ## Study Design: MechaCar vs Competition
 
-Using your knowledge of R, design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
+Using knowledge of R, I've designed a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
 
 **What metric or metrics are you going to test?**
-Using a one-sample t-test, is there a statistical difference between the mean of MechaCar's satefy ratings and the mean of leading manufactures' safety ratings?
+I want to know if cars at MechaCar have statistically significant higher safety ratings than the leading manufactures so I would use a one-sample t-test to compare the difference between the mean of MechaCar's safety ratings and the mean of leading manufactures' safety ratings.
 
 **What is the null hypothesis or alternative hypothesis?**
-* Null Hypothesis: significance level was the common 0.05 percent
+* Null Hypothesis: Given a significance level of 0.05, there is no statistical significance between MechaCar's and the leading manufactures' mean safety rating. 
 
-
-* Hypothesis: 
-
+* Hypothesis: Given a significance level of 0.05, there is a statistical significance between MechaCar's and the leading manufactures' mean safety rating. If the difference is a positive result, then MechaCar manufactures safer cars than leading competitors. If the difference is a negative result, then MechaCar manufactures less safe cars than leading competitors. 
 
 **What statistical test would you use to test the hypothesis? And why?**
-
+Since I want to determine if there a statistical difference between the mean of the sample distribution and the mean of the population distribution, a one-sample t-Test will be used to test the hypothesis. 
 
 **What data is needed to run the statistical test?**
+Assuming the dealerships want last year's stock gone before a new model arrives, I would want to compare models from the same year. If wanted to promote next year's model (2023), I would need data for each 2023 model we sold and collect similar 2023 model data from 3-5 other manufacturing companies.
+
 
